@@ -1,0 +1,28 @@
+.order_total_width{
+    width:100%;
+}
+.top-horizontal-bar{
+    margin-left: 20px;
+    padding-top: 15px;
+}
+.breadcrumb {
+    background-color: transparent!important;
+}
+.breadcrumb>li{
+    padding-left: 10px!important;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: .5rem;
+    color: #6c757d;
+    content: ">"!important;
+}
+.home-slide-subtitle{
+    opacity: 1.0;
+}
+.home_slide_title{
+    opacity: 1.0;
+}
+home-slider{
+    opacity: 1.0;
+}

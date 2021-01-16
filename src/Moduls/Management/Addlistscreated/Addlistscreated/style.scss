@@ -1,0 +1,37 @@
+@import '../../../../assets/scss/mixins';
+.accounting {
+  .product-single-details {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .btn_group {
+    padding-left: 15px;
+    margin-top: 40px;
+  }
+  .btn_sgroup {
+    margin-top: 20px;
+  }
+
+  .btn_del {
+    margin-right: 10px;
+  }
+
+  .btn_addcart { 
+    width: 215px;
+  }
+
+  .hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .img_height{
+    height: 150px;
+  }
+  .addlist_img_style{
+    height: 100%;
+  }  
+}
+
+
+
+    

@@ -1,0 +1,196 @@
+.header {
+    background-color: #fff; }
+.header-second {
+    position:fixed;
+    top:0px;
+    width: 100%;
+    z-index: 100;
+    transition:top 3s
+}
+.header .container,
+.header .container-fluid {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative; }
+
+.header-left,
+.header-center,
+.header-right {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center; }
+
+.header-right {
+    margin-left: auto; }
+
+.header-center {
+    margin-right: auto;
+    margin-left: auto; }
+
+.header-top {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    letter-spacing: .025rem;
+    color: white;
+    padding-top: .8rem;
+    background-color: #2962ff;
+    padding-bottom: .5rem; }
+.header-top a {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    color: white; }
+
+.welcome-msg {
+    cursor: pointer;
+    display: none;
+    position: relative;
+    margin: .3rem 2rem .3rem 0;
+    text-transform: uppercase; }
+.welcome-msg::after {
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    right: -16px;
+    height: 16px;
+    margin-top: -8px;
+    border-right: 1px solid #e7e7e7;
+    content: '';
+    opacity: .8; }
+
+.header-middle {
+    padding-top: 2.7rem;
+    padding-bottom: 2.4rem;
+    background-color: #2962ff;
+    box-shadow: 0 28px 57px rgba(0, 0, 0, 0.06); }
+
+.porto-icon {
+    font-size: 26px;
+    margin-right: 2.2rem;
+    margin-left: 1rem;
+    margin-bottom: 2px;
+    color: white;
+    display: inline-block; }
+.porto-icon:hover {
+    color: white; }
+
+.logo {
+    display: block; }
+.logo img {
+    display: block;
+    max-width: 100%;
+    height: auto; }
+
+.header-dropdown {
+    position: relative;
+    text-transform: uppercase; }
+.header-dropdown > a {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    position: relative;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-right: 1.1rem; }
+.header-dropdown > a::after {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -1px;
+    margin-left: .6rem;
+    transform: translateY(-50%);
+    font-family: 'porto';
+    font-size: 1.4rem;
+    line-height: 1;
+    content: '\e81c'; }
+.header-dropdown a img {
+    display: inline-block;
+    max-width: 16px;
+    height: auto;
+    margin-right: .6rem; }
+.header-dropdown a:hover, .header-dropdown a:focus {
+    color:white;
+    text-decoration: none; }
+
+.header-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 100%;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    transition: all .25s;
+    border: 1px solid #ccc;
+    background-color: grey;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 20; }
+.header-right .header-menu {
+    right: 0;
+    left: auto; }
+.header-dropdown:hover > .header-menu {
+    opacity: 1;
+    visibility: visible; }
+.header-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+.header-menu ul li {
+    position: relative;
+    margin: 0; }
+.header-menu ul a {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 2px 9px;
+    white-space: nowrap; }
+.header-menu a {
+    color: inherit; }
+.header-menu a:hover, .header-menu a:focus {
+    background-color: #ccc;
+    color: #fff; }
+
+.header .btn-remove::before {
+    display: none; }
+
+.header-dropdowns .header-dropdown + .header-dropdown, .header-dropdowns .header-dropdown + .dropdown {
+    margin-left: 29px; }
+.header-dropdowns .header-dropdown + .header-dropdown::before, .header-dropdowns .header-dropdown + .dropdown::before {
+    position: absolute;
+    top: 50%;
+    left: -16px;
+    height: 16px;
+    margin-top: -8px;
+    border-right: 1px solid #e7e7e7;
+    content: '';
+    opacity: .8; }
+
+.dropdownmenu-wrapper {
+    position: relative;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 29px 28px rgba(0, 0, 0, 0.1); }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,51 @@
+.add-cart-box {
+    padding: 19px 10px 20px !important;
+    border-top: 4px solid #f4631b;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6); }
+.add-cart-box h4 {
+    font-weight: 500;
+    color: #f4631b;
+    margin-bottom: 1.8rem;
+    font-size: 16px; }
+.add-cart-box p {
+    font-size: 13px; }
+.add-cart-box img {
+    margin: 0 auto 10px;
+    width: 120px; }
+.add-cart-box .btn-actions {
+    display: flex;
+    justify-content: space-around; }
+.add-cart-box .btn-actions .btn-primary {
+    width: 140px;
+    padding: 8px 0;
+    font: 500 16px "Open Sans", sans-serif;
+    border: none;
+    cursor: pointer; }
+.add-cart-box .btn-actions .btn-primary:focus, .add-cart-box .btn-actions .btn-primary:active, .add-cart-box .btn-actions .btn-primary:active:focus {
+    outline: none;
+    border: none;
+    box-shadow: none; }
+.add-cart {
+    color: #2b2b2d;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: .85rem .5rem;
+    min-width: 105px;
+    z-index: 2; }
+.add-cart::before {
+    display: inline-block;
+    line-height: 1;
+    margin-top: 2px;
+    font-size: 1.9rem;
+    content: '\e87f';
+    font-family: 'porto'; }
+.add-cart span {
+    display: inline-block;
+    padding-top: 1px;
+    font-family: "Oswald", sans-serif; }
+.add-cart:hover, .add-cart:focus {
+    border-color: #f4631b;
+    background-color: #f4631b;
+    color: #fff; }

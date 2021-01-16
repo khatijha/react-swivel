@@ -1,0 +1,34 @@
+.searchicon-button{
+    height: 50px;
+    width: 90px;
+    border-radius: 0 40px 40px 0;
+    background-color: #333333;
+    border-color: #333333;
+}
+.ant-select-auto-complete.ant-select .ant-input {
+    height: 32px;
+    line-height: 1.5;
+    background: transparent;
+    border-width: 0px!important;
+}
+.ant-select-auto-complete.ant-select .ant-input:focus{
+    height: 32px;
+    line-height: 1.5;
+    background: transparent;
+    border-width: 0px!important;
+    outline: none!important;
+}
+.ant-select-auto-complete.ant-select .ant-input:hover{
+    height: 32px;
+    line-height: 1.5;
+    background: transparent;
+    border-width: 0px!important;
+    outline: none!important;
+}
+.ant-input:focus{
+    border: none!important;
+    outline: none!important;
+    -webkit-box-shadow: 0 0 0 0px!important;
+    box-shadow: 0 0 0 0!important;
+}
+

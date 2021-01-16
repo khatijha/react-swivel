@@ -1,0 +1,17 @@
+@import '../../../../assets/scss/mixins';
+.accounting {
+  label {
+    // margin-left:-15px;
+  }
+  .form-item {
+    label {
+      margin-left:0;
+    }
+  }
+  Button {
+    // margin-left:-15px;
+  }
+  .personal-info__button {
+    padding-top: 0;
+  }
+}
